@@ -47,7 +47,7 @@ if(isset($_POST['login'])){
         insert(9);
         header('location:login.php');
     }
-    
+     
 }
 if(isset($_GET['token']) && $_GET['step']){
     if($_GET['step']=="basic"){
